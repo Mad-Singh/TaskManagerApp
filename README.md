@@ -10,7 +10,7 @@ A Flutter-based Task Manager application using **Back4App** as a Backend-as-a-Se
 |---|---|
 | **Name** | Madhuri |
 | **Student ID** | 2024MT13019 |
-| **Course** | Cross Platform Development |
+| **Course** | Cross Platform Application Development |
 
 ---
 
