@@ -1,10 +1,10 @@
-# Task Manager App 📝
+# Task Manager App 
 
 A Flutter-based Task Manager application using **Back4App** as a Backend-as-a-Service (BaaS).
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 | Field | Details |
 |---|---|
@@ -14,49 +14,48 @@ A Flutter-based Task Manager application using **Back4App** as a Backend-as-a-Se
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Setup Instructions](#setup-instructions)
 - [Back4App Configuration](#back4app-configuration)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
 - [App Flow](#app-flow)
 - [CRUD Operations](#crud-operations)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project demonstrates a full-stack mobile application using **Flutter** for the frontend and **Back4App (Parse Server)** as the backend. The app enables user authentication and complete task management (CRUD operations) without requiring a custom server setup.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 User Authentication
+### User Authentication
 - Register with email and password
 - Secure login and logout
 - Session management (auto-login)
 
-### 📋 Task Management (CRUD)
-- ✅ **Create** — Add new tasks with title and description
-- 📖 **Read** — View all your tasks in a scrollable list
-- ✏️ **Update** — Edit task details and toggle completion status
-- 🗑️ **Delete** — Remove tasks with confirmation dialog
+### Task Management (CRUD)
+- **Create** — Add new tasks with title and description
+- **Read** — View all your tasks in a scrollable list
+- **Update** — Edit task details and toggle completion status
+- **Delete** — Remove tasks with confirmation dialog
 
-### 🔄 Real-Time Sync
+### Real-Time Sync
 - Tasks sync automatically with Back4App cloud database
 - Pull-to-refresh functionality
 
-### 🎨 Modern UI
+### Modern UI
 - Material Design 3
 - Clean and intuitive user experience
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |---|---|
@@ -68,7 +67,7 @@ This project demonstrates a full-stack mobile application using **Flutter** for 
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -122,7 +121,7 @@ flutter run
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 taskmanagerapp/
@@ -148,23 +147,7 @@ taskmanagerapp/
 
 ---
 
-## 📸 Screenshots
-
-| Splash Screen | Login | Register |
-|---|---|---|
-| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
-
-| Home (Empty) | Home (With Tasks) | Create Task |
-|---|---|---|
-| ![Empty](screenshots/home_empty.png) | ![Tasks](screenshots/home_tasks.png) | ![Create](screenshots/create_task.png) |
-
-| Edit Task | Delete Confirmation |
-|---|---|
-| ![Edit](screenshots/edit_task.png) | ![Delete](screenshots/delete_confirm.png) |
-
----
-
-## 🔄 App Flow
+## App Flow
 
 ```
 App Launch
@@ -185,7 +168,7 @@ Splash Screen (checks session)
 
 ---
 
-## 📝 CRUD Operations
+## CRUD Operations
 
 | Operation | Service Method | Description |
 |---|---|---|
@@ -196,7 +179,7 @@ Splash Screen (checks session)
 
 ---
 
-## 📄 License
+## License
 
 This project is created for educational purposes as part of the Cross Platform Development coursework.
 
